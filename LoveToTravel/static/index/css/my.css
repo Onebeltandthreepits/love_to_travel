@@ -1,0 +1,46 @@
+#areas{
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px cadetblue;
+}
+
+#areas ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#areas li{
+    float: left;
+    margin-left: 10px;
+}
+
+#scenic ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#scenic li{
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px lightgray;
+    background-color: aliceblue;
+}
+
+#scenic li dl {
+    padding: 0;
+    margin: 0;
+}
+
+#scenic dd {
+    text-align: center;
+    margin: 5px 0;
+}
+
+#scenic img:hover{
+    transform: scale3d(1.1,1.1,1.1);
+    transition: transform linear .2s;
+}
